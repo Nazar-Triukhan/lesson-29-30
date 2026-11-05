@@ -1,7 +1,7 @@
 import { useState } from "react";
 import "./App.css";
 import { useSelector, useDispatch } from "react-redux";
-import { addContact, deleteContact as deleteContactAction, updateContact as updateContactAction } from "./redux/store";
+import {  deleteContact as deleteContactAction, updateContact as updateContactAction } from "./redux/store";
 import ContactForm from "./components/ContactForm/ContactForm";
 import ContactList from "./components/ContactList/ContactList";
 import SearchBox from "./components/SearchBox/SearchBox";
@@ -47,7 +47,7 @@ function App() {
   );
 
   return (
-    <div className="app">
+    <main className="app">
       <h1>Phonebook</h1>
 
       <ContactForm
@@ -65,7 +65,7 @@ function App() {
         onDeleteContact={deleteContact}
         onEditContact={editContact}
       />
-    </div>
+    </main>
   );
 }
 
