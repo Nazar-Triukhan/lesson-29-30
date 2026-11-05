@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "",
+  "homepage": "https://nazar-triukhan.github.io/lesson-29-30/",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
